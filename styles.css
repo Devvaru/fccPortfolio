@@ -91,7 +91,7 @@ header {
     flex-flow: column;
     align-items: center;
     width: 100%;
-    height: 115vh;
+    height: 130vh;
 }
 
 #heading {
@@ -118,13 +118,42 @@ header {
     max-width: 300px;
 }
 
-/* .images:hover {
-    background: rgba(59, 152, 189, 0.24);
-} */
+.images:hover {
+    transition-duration: 0.4s;
+    opacity: 0.6;
+}
 
 .project-tile {
     color: #F0FDFF;
     text-align: center;
     font-size: 18px;
     
+}
+
+footer {
+    background-color: #00465A;
+    
+}
+
+#contact-info {
+    padding: 30px;
+    text-align: center;
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    column-gap: 50px;
+    
+}
+
+.footer-link {
+    color: #FFCB7B;
+    font-size: 24px;
+    text-decoration: none;
+    font-family: montserrat, sans-serif;
+    font-weight: 600;
+}
+
+.footer-link:hover {
+    transition-duration: 0.4s;
+    color: #e6a037;
 }
