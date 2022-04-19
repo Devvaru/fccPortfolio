@@ -21,39 +21,22 @@ h1, h2 {
     margin: 42px;
 }
 
-header {
+#navbar {
+    column-gap: 50px;
     display: flex;
     flex-flow: row;
     justify-content: center;
     background: #FFFDFC;
     box-shadow: 0px 8px 59px rgba(8, 47, 63, 0.22);
-    padding: 0px;
+    padding: 30px;
     position: sticky;
     top: 0;
-}
-
-@media (max-width: 1201px) {
-    header {
-        flex-flow: column;
-        max-width: 100%;
-        padding: 10px 10px 10px 10px;
-        justify-content: center;
-        gap: 10px;
-    }
-}
-
-#navbar {
-    display: flex;
-    flex-flow: row;
-    column-gap: 25px;
-    justify-content: flex-end;
     
 }
 
 @media (max-width: 1201px) {
     #navbar {
-        column-gap: 10px;
-        justify-content: center;
+        column-gap: 25px;
     }
 }
 
@@ -67,6 +50,7 @@ header {
     font-family: montserrat, sans-serif;
     font-weight: 600;
     margin: 0px;
+    padding: 0px;
 }
 
 @media (max-width: 1201px) {
@@ -105,6 +89,14 @@ header {
     padding-top: 100px;
     color: #F0FDFF;
     text-transform: uppercase;
+    font-size: 50px;
+}
+
+@media (max-width: 1201px) {
+    #heading {
+        font-size: 32px;
+        padding-top: 50px;
+    }
 }
 
 #projects {
@@ -118,7 +110,13 @@ header {
     border-color: #ffb342;
     padding: 100px 200px 100px 200px;
     margin: 100px;
+}
 
+@media (max-width: 1201px) {
+    #projects {
+        padding: 50px 25px 25px 25px;
+        margin: 25px;
+    }
 }
 
 .images {
@@ -147,12 +145,17 @@ footer {
     flex-flow: row;
     justify-content: center;
     column-gap: 50px;
-    
+}
+
+@media (max-width: 1201px) {
+    #contact-info {
+        column-gap: 25px;
+    }
 }
 
 .footer-link {
     color: #FFCB7B;
-    font-size: 24px;
+    font-size: 23px;
     text-decoration: none;
     font-family: montserrat, sans-serif;
     font-weight: 600;
