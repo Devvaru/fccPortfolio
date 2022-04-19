@@ -2,6 +2,7 @@
 body {
     margin: 0px;
     font-family: montserrat, sans-serif;
+
 }
 
 h1 {
@@ -78,5 +79,18 @@ header {
     align-items: center;
     width: 100%;
     height: 100vh;
-    background: linear-gradient(180deg, #2FACBF 0%, #052333 136.87%);
+    background: url(images/bg-img.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0px;
+}
+
+#projects {
+    background-color: #00212B;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
 }
