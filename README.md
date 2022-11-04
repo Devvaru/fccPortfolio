@@ -1,3 +1,3 @@
 # fccPortfolio
 FreeCodeCamp - Personal Portfolio Page
-https://syeraru.github.io/fccPortfolio/
+https://devvaru.github.io/fccPortfolio/
